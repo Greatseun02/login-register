@@ -53,6 +53,10 @@
 
             }
         ?>
+
+        <div>
+                <p>If not registered. <a href="./registration.php">Register here.</a></p>
+        </div>
         <form action="login.php" method="Post">
             <div class="form-group">
                 <input name="email" placeholder="Enter Email:" type="email" class="form-control" />
@@ -65,7 +69,7 @@
             </div>
         </form>
         <div>
-                <p>If not registered. <a href="./registration.php">Register here.</a></p>
+            <p><a href="./forgotPassword.php">Forgot Password</a></p>
         </div>
     </div>
 </body>
